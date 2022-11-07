@@ -1,0 +1,58 @@
+@media (max-width:800px){
+    .Header{
+        width: 100%;
+        margin: 0;
+        background-color: #F8F9FA;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        box-shadow: 0 0 5px 0px;
+    }
+    .Header > h1{
+        margin: 5px 0px 5px 10%;
+    }
+    .Header > button{
+        margin: 5px 10% 5px 0px;
+
+        width: 100px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+    }
+    .Header > button:hover{
+        width: 100px;
+        height: 50px;
+        background-color: #E9ECEF;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:800px){
+    .Header{
+        width: 100%;
+        margin: 0;
+        background-color: #F8F9FA;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .Header > h1{
+        margin: 5px 0px 5px 10%;
+    }
+    .Header > button{
+        margin: 5px 10% 5px 0px;
+
+        width: 100px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+    }
+    .Header > button:hover{
+        width: 100px;
+        height: 50px;
+        background-color: #E9ECEF;
+        border: none;
+        border-radius: 5px;
+    }
+}
