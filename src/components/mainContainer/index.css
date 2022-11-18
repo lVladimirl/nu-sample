@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+  .MainContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px 5%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 500px) {
+  .MainContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px 5%;
+    justify-content: center;
+  }
+}
+@media (min-width: 800px) {
+  .MainContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px 10%;
+    justify-content: space-between;
+  }
+}

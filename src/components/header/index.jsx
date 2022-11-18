@@ -4,7 +4,7 @@ export const Header = () => {
         <header className="Header">
             {/* <img src="logo"alt="Nu Kenzie" /> */}
             <h1>titulo</h1>
-            <button>Inicio</button>
+            {/* <button>Inicio</button> */}
         </header>
     )  
   }

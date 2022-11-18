@@ -1,0 +1,138 @@
+@media (min-width: 800px) {
+  .FormTransaction {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+  }
+  .FormTransaction > form > label {
+    width: 90%;
+    margin: 0px 5% 10px;
+  }
+  .FormTransaction > form > input,
+  select {
+    height: 28px;
+    width: 90%;
+    box-sizing: border-box;
+
+    margin: 0px 5% 10px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #e9ecef;
+
+    padding: 5px;
+  }
+
+  .FormTransaction > form > input[type="submit"] {
+    height: 50px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    margin: 10px 5%;
+
+    border: none;
+    background-color: #fd377e;
+    border-radius: 4px;
+
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.863);
+  }
+}
+@media (max-width: 800px) {
+  .FormTransaction {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 350px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+  }
+  .FormTransaction > form > label {
+    width: 90%;
+    margin: 0px 5% 10px;
+  }
+  .FormTransaction > form > input,
+  select {
+    height: 28px;
+    width: 90%;
+    box-sizing: border-box;
+
+    margin: 0px 5% 10px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #e9ecef;
+
+    padding: 5px;
+  }
+
+  .FormTransaction > form > input[type="submit"] {
+    height: 50px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    margin: 10px 5%;
+
+    border: none;
+    background-color: #fd377e;
+    border-radius: 4px;
+
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.863);
+  }
+}
+@media (max-width: 500px) {
+  .FormTransaction {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 350px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+  }
+  .FormTransaction > form > label {
+    width: 90%;
+    margin: 0px 5% 10px;
+  }
+  .FormTransaction > form > input,
+  select {
+    height: 28px;
+    width: 90%;
+    box-sizing: border-box;
+
+    margin: 0px 5% 10px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #e9ecef;
+
+    padding: 5px;
+  }
+
+  .FormTransaction > form > input[type="submit"] {
+    height: 50px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    margin: 10px 5%;
+
+    border: none;
+    background-color: #fd377e;
+    border-radius: 4px;
+
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.863);
+  }
+}
