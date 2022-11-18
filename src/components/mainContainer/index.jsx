@@ -1,9 +1,9 @@
 import FormTransaction from "../formTransaction";
 import "./index.css";
-export const MainContainer = () => {
+export const MainContainer = ({list, setList}) => {
   return (
     <main className="MainContainer">
-        <FormTransaction/>
+        <FormTransaction list={list} setList={setList}/>
     </main>
   );
 };
